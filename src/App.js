@@ -1,5 +1,6 @@
 import TodoListContainer from "./containers/TodoListContainer";
 import TodoFormContainer from "./containers/TodoFormContainer";
+import UserListContainer from "./containers/UserListContainer";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* {JSON.stringify(state)} */}
       <TodoListContainer />
       <TodoFormContainer />
+      <UserListContainer />
     </>
   );
 }
